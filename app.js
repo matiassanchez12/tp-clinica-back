@@ -38,7 +38,7 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || "https://tp-clinica-back.vercel.app/";
 
 app.listen(PORT, () => {
   const url = `http://localhost:${PORT}`;
